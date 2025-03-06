@@ -114,18 +114,9 @@ ${SukkaGoat}         //android.view.ViewGroup[@content-desc="Sukka Goat, Dry goa
 
 
 
-#cart page proceed
-${cartproceed}    //android.widget.TextView[@text="Proceed"]
 
-#select preference
-${QuickOrder}    //android.view.ViewGroup[@content-desc="Quick Order"]
 
-#Checkout proceed
-${proceedtopay}    //android.widget.TextView[@text=""]
 
-#Choose your payment method
-${payatrestaurant}     //android.widget.TextView[@text=" Pay at"]
-${proceedtocheckout}    //android.widget.TextView[@text="Proceed To Checkout"]
 
 
 

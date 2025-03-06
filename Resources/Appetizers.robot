@@ -253,28 +253,3 @@ ScrollPage
         
 
 
-#cart page proceed button
-Cartpageproceed
-        Wait Until Page Contains Element  ${cartproceed}   timeout=60s
-        Click Element    ${cartproceed}
-
-#select preference
-Quick    
-        Wait Until Page Contains Element  ${QuickOrder}   timeout=60s
-        Click Element    ${QuickOrder}
-
-#checkout page
-proceed
-        Wait Until Page Contains Element      ${proceedtopay}     timeout=60s
-        Click Element    ${proceedtopay}  
-
-#Choose your payment method
-PaymentMethod
-        Wait Until Page Contains Element      ${payatrestaurant}     timeout=60s
-        Click Element    ${payatrestaurant} 
-
-proceedtocheckout
-        Wait Until Page Contains Element      ${proceedtocheckout}     timeout=60s
-        Click Element    ${proceedtocheckout} 
-        
-
