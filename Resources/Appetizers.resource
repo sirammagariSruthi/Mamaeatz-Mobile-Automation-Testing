@@ -1,6 +1,6 @@
 *** Settings ***
 Library    AppiumLibrary
-Resource    ../PageObjects/Appetizers.robot
+Variables    ../PageObjects/Appetizers.py
 
 *** Keywords ***
 #Babycorn Sucategory
