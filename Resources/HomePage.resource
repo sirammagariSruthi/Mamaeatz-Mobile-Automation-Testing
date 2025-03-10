@@ -90,6 +90,7 @@ Tap on Orders Button on Home Screen
 Tap on Specials Button on Home Screen
         Wait Until Page Contains Element     ${Home_Button_Specials}    timeout=80s
         Click Element    ${Home_Button_Specials}
+        
 Tap on Catering Button on Home Screen
         Wait Until Page Contains Element     ${Home_Button_Catering}    timeout=80s
         Click Element    ${Home_Button_Catering}
