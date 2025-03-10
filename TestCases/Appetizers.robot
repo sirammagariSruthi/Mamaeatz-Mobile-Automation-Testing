@@ -3,6 +3,11 @@ Library    AppiumLibrary
 Resource    ../Resources/OpenApplication.robot
 Resource    ../Resources/HomePage.robot
 Resource    ../Resources/Appetizers.robot
+Resource    ../Resources/Variants.robot
+Resource    ../Resources/CartPage.robot
+Resource    ../Resources/SelectYourPreference.robot
+Resource    ../Resources/CheckoutPage.robot
+Resource    ../Resources/ChooseYourPayment.robot
 
 *** Test Cases ***
 Place an order
@@ -17,21 +22,21 @@ Sub category
     
     
 Variants
-    SpiceMedium
-    AddBut
-    Addcart
+    Medium+
+    AddButton
+    AddToCartButton
 Cart Page
     Cart
-    Cartpageproceed
+    cartproceed
 
 Select preference
-    Quick  
+    QuickOrder 
 
 Checkout
-    proceed
+    ProceedToPay
 
 Process   
-    PaymentMethod
-    proceedtocheckout
+    PayAtRestaurant
+    ProceedToCheckout
 
 
